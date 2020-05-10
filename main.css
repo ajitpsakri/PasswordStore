@@ -12,7 +12,7 @@ form {
 }
 h1 {
   font-family: "Roboto Slab", serif;
-  color: white !important;
+  color: white;
 }
 img {
   width: 300px;
@@ -46,6 +46,24 @@ button {
 }
 button:hover {
   color: whitesmoke;
-  background-color: black;
+  background-color: #ff7c00;
   cursor: pointer;
+  padding: 24px;
+  transition-duration: 1s;
+}
+form {
+  position: relative;
+  left: 500px;
+}
+
+button {
+  position: relative;
+  left: 310px;
+  bottom: 60px;
+  font-weight: bolder;
+}
+
+#headHoverGradient:hover {
+  color: #ff7c00;
+  transition-duration: 1s;
 }
