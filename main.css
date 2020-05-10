@@ -1,11 +1,51 @@
+:root {
+  --justAColor: black;
+}
 body {
-  background-color: #ffd453c9;
+  background-color: var(--justAColor);
+  text-align: center;
 }
 form {
-  font-family: "Pacifico", cursive;
-  color: green;
+  font-family: "Merienda One", cursive;
+  color: black !important;
+  font-size: 25px;
 }
 h1 {
-  font-family: "Fredoka One", cursive;
-  color: brown;
+  font-family: "Roboto Slab", serif;
+  color: white !important;
+}
+img {
+  width: 300px;
+  margin: 0px 0px 1em 0px;
+}
+
+.thin-black-border {
+  border-width: 4px;
+  border-color: var(--justAColor);
+  border-style: solid;
+  border-radius: 100%;
+}
+.AllForm {
+  background-color: #8fdcd3;
+  border-style: solid;
+  border-width: 10px;
+  border-radius: 8px;
+  text-align: justify;
+}
+
+[type="text"] {
+  margin: 15px 0px 15px 0px;
+}
+
+button {
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #46afbd;
+  font-size: 20px;
+  box-shadow: whitesmoke 50px;
+}
+button:hover {
+  color: whitesmoke;
+  background-color: black;
+  cursor: pointer;
 }
